@@ -1,0 +1,94 @@
+2024-05-27 02:37:02,092 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-27 02:37:02,092 INFO [33mPress CTRL+C to quit[0m
+2024-05-27 02:37:26,776 DEBUG tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-05-27 02:37:26,777 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00&'
+2024-05-27 02:37:26,777 DEBUG Image mode: RGB, size: (1108, 1477)
+2024-05-27 02:37:27,268 DEBUG Extracted text: Sissi oe
+
+URARA
+TELO3-6408-8726 FAXO3-5428-8
+
+O10
+vy"0102 2024/ 5/26¢ A)
+BYS073 #: 105681102
+
+SADU RI Ly bA= 756
+(2(ffl X 34378)
+
+Ce — ¥756
+SAR OWNER ¥756
+ARO’ ¥75
+
+——— ¥837
+VY b ¥831
+BH
+
+Si Lia: 2
+[Peso hae Pome
+aA
+
+HEED
+Hoke VISA/447 49179
+BBS YWMK-HNKK-KXUN-5296
+
+SHURA 0242505 306
+Raine | OBE ae
+TeEtS
+
+a
+AEs 0217368
+AD a
+
+HN NTA
+
+
+2024-05-27 02:37:27,268 DEBUG Extracted date: Not found, amount: Not found
+2024-05-27 02:37:27,269 INFO 127.0.0.1 - - [27/May/2024 02:37:27] "POST /upload HTTP/1.1" 200 -
+2024-05-27 02:39:06,133 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-27 02:39:06,133 INFO [33mPress CTRL+C to quit[0m
+2024-05-27 02:39:14,160 DEBUG tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-05-27 02:39:14,161 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00&'
+2024-05-27 02:39:14,161 DEBUG Image mode: RGB, size: (1108, 1477)
+2024-05-27 02:39:14,658 DEBUG Extracted text: Sissi oe
+
+URARA
+TELO3-6408-8726 FAXO3-5428-8
+
+O10
+vy"0102 2024/ 5/26¢ A)
+BYS073 #: 105681102
+
+SADU RI Ly bA= 756
+(2(ffl X 34378)
+
+Ce — ¥756
+SAR OWNER ¥756
+ARO’ ¥75
+
+——— ¥837
+VY b ¥831
+BH
+
+Si Lia: 2
+[Peso hae Pome
+aA
+
+HEED
+Hoke VISA/447 49179
+BBS YWMK-HNKK-KXUN-5296
+
+SHURA 0242505 306
+Raine | OBE ae
+TeEtS
+
+a
+AEs 0217368
+AD a
+
+HN NTA
+
+
+2024-05-27 02:39:14,658 DEBUG Extracted date: Not found, amount: Not found
+2024-05-27 02:39:14,659 INFO 127.0.0.1 - - [27/May/2024 02:39:14] "POST /upload HTTP/1.1" 200 -

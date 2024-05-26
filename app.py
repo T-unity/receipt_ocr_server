@@ -1,12 +1,17 @@
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'
 
+import pytesseract
+import logging
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import pytesseract
 from PIL import Image
 import io
 import re
+
+# Set up logging
+logging.basicConfig(filename='app.log', level=logging.DEBUG,
+                    format='%(asctime)s %(levelname)s %(message)s')
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
@@ -31,8 +36,21 @@ def upload_file():
         return jsonify({"error": "No selected file"}), 400
 
     image = Image.open(io.BytesIO(file.read()))
+
+    # Log the image mode and size
+    logging.debug(f"Image mode: {image.mode}, size: {image.size}")
+
+    # Extract text from image using pytesseract
     text = pytesseract.image_to_string(image)
+
+    # Log the extracted text
+    logging.debug(f"Extracted text: {text}")
+
+    # Extract date and amount from the text
     date, amount = extract_date_and_amount(text)
+
+    # Log the extracted date and amount
+    logging.debug(f"Extracted date: {date}, amount: {amount}")
 
     return jsonify({"date": date, "amount": amount})
 
